@@ -1,0 +1,162 @@
+Thread0= iadd_minilp CPI= 1.004474 @ 
+Thread0= imul_minilp CPI= 13.020929 @ 
+Thread0= idiv_minilp CPI= 173.103524 @ 
+Thread0= imem_seq_minilp CPI= 2.523381 @ 
+Thread0= iadd_minilp CPI= 2.047284 @ Thread1= iadd_minilp CPI= 2.046128 @ 
+Thread0= iadd_minilp CPI= 1.209196 @ Thread1= imul_minilp CPI= 38.439649 @ 
+Thread0= iadd_minilp CPI= 1.212722 @ Thread1= idiv_minilp CPI= 325.014170 @ 
+Thread0= iadd_minilp CPI= 1.584597 @ Thread1= imem_seq_minilp CPI= 8.010642 @ 
+Thread0= imul_minilp CPI= 13.867584 @ Thread1= imul_minilp CPI= 13.865599 @ 
+Thread0= imul_minilp CPI= 13.363304 @ Thread1= idiv_minilp CPI= 194.399043 @ 
+Thread0= imul_minilp CPI= 14.673399 @ Thread1= imem_seq_minilp CPI= 7.142589 @ 
+Thread0= idiv_minilp CPI= 226.399893 @ Thread1= idiv_minilp CPI= 226.456000 @ 
+Thread0= idiv_minilp CPI= 192.613767 @ Thread1= imem_seq_minilp CPI= 7.359042 @ 
+Thread0= imem_seq_minilp CPI= 2.911710 @ Thread1= imem_seq_minilp CPI= 2.924262 @ 
+Thread0= iadd_medilp CPI= 1.003501 @ 
+Thread0= imul_medilp CPI= 11.521450 @ 
+Thread0= idiv_medilp CPI= 174.514800 @ 
+Thread0= imem_seq_medilp CPI= 1.457707 @ 
+Thread0= iadd_medilp CPI= 2.047983 @ Thread1= iadd_medilp CPI= 2.047337 @ 
+Thread0= iadd_medilp CPI= 1.209697 @ Thread1= imul_medilp CPI= 38.368240 @ 
+Thread0= iadd_medilp CPI= 1.215636 @ Thread1= idiv_medilp CPI= 325.552039 @ 
+Thread0= iadd_medilp CPI= 1.625957 @ Thread1= imem_seq_medilp CPI= 3.992249 @ 
+Thread0= imul_medilp CPI= 13.496493 @ Thread1= imul_medilp CPI= 13.501487 @ 
+Thread0= imul_medilp CPI= 13.130689 @ Thread1= idiv_medilp CPI= 194.908964 @ 
+Thread0= imul_medilp CPI= 14.904933 @ Thread1= imem_seq_medilp CPI= 2.576539 @ 
+Thread0= idiv_medilp CPI= 226.362497 @ Thread1= idiv_medilp CPI= 226.389077 @ 
+Thread0= idiv_medilp CPI= 240.993083 @ Thread1= imem_seq_medilp CPI= 2.573159 @ 
+Thread0= imem_seq_medilp CPI= 3.664544 @ Thread1= imem_seq_medilp CPI= 3.666575 @ 
+Thread0= iadd_maxilp CPI= 1.002598 @ 
+Thread0= imul_maxilp CPI= 11.022512 @ 
+Thread0= idiv_maxilp CPI= 174.468969 @ 
+Thread0= imem_seq_maxilp CPI= 1.921491 @ 
+Thread0= iadd_maxilp CPI= 2.045213 @ Thread1= iadd_maxilp CPI= 2.046368 @ 
+Thread0= iadd_maxilp CPI= 1.208806 @ Thread1= imul_maxilp CPI= 38.505243 @ 
+Thread0= iadd_maxilp CPI= 1.215037 @ Thread1= idiv_maxilp CPI= 325.129497 @ 
+Thread0= iadd_maxilp CPI= 1.801778 @ Thread1= imem_seq_maxilp CPI= 4.992676 @ 
+Thread0= imul_maxilp CPI= 13.351216 @ Thread1= imul_maxilp CPI= 13.356017 @ 
+Thread0= imul_maxilp CPI= 12.911652 @ Thread1= idiv_maxilp CPI= 195.505163 @ 
+Thread0= imul_maxilp CPI= 15.225739 @ Thread1= imem_seq_maxilp CPI= 2.766174 @ 
+Thread0= idiv_maxilp CPI= 226.444548 @ Thread1= idiv_maxilp CPI= 226.407981 @ 
+Thread0= idiv_maxilp CPI= 245.931438 @ Thread1= imem_seq_maxilp CPI= 2.907422 @ 
+Thread0= imem_seq_maxilp CPI= 14.507912 @ Thread1= imem_seq_maxilp CPI= 14.501161 @ 
+Thread0= fadd_minilp CPI= 5.006438 @ 
+Thread0= faddmul_minilp CPI= 6.007619 @ 
+Thread0= fmul_minilp CPI= 7.009507 @ 
+Thread0= fdiv_minilp CPI= 40.043795 @ 
+Thread0= fmem_seq_minilp CPI= 9.903614 @ 
+Thread0= fadd_minilp CPI= 5.139219 @ Thread1= fadd_minilp CPI= 5.139634 @ 
+Thread0= fadd_minilp CPI= 6.143851 @ Thread1= faddmul_minilp CPI= 6.096883 @ 
+Thread0= fadd_minilp CPI= 5.306054 @ Thread1= fmul_minilp CPI= 7.089098 @ 
+Thread0= fadd_minilp CPI= 5.018397 @ Thread1= fdiv_minilp CPI= 40.084498 @ 
+Thread0= fadd_minilp CPI= 5.019373 @ Thread1= fmem_seq_minilp CPI= 10.389091 @ 
+Thread0= faddmul_minilp CPI= 6.023793 @ Thread1= faddmul_minilp CPI= 6.021946 @ 
+Thread0= faddmul_minilp CPI= 7.157681 @ Thread1= fmul_minilp CPI= 7.247632 @ 
+Thread0= faddmul_minilp CPI= 9.941469 @ Thread1= fdiv_minilp CPI= 40.083154 @ 
+Thread0= faddmul_minilp CPI= 6.016253 @ Thread1= fmem_seq_minilp CPI= 10.182290 @ 
+Thread0= fmul_minilp CPI= 7.504009 @ Thread1= fmul_minilp CPI= 7.502661 @ 
+Thread0= fmul_minilp CPI= 7.567134 @ Thread1= fdiv_minilp CPI= 43.087648 @ 
+Thread0= fmul_minilp CPI= 7.046094 @ Thread1= fmem_seq_minilp CPI= 10.015543 @ 
+Thread0= fdiv_minilp CPI= 93.114996 @ Thread1= fdiv_minilp CPI= 93.123426 @ 
+Thread0= fdiv_minilp CPI= 40.063881 @ Thread1= fmem_seq_minilp CPI= 9.946543 @ 
+Thread0= fmem_seq_minilp CPI= 9.973603 @ Thread1= fmem_seq_minilp CPI= 9.979815 @ 
+Thread0= fadd_medilp CPI= 2.127411 @ 
+Thread0= faddmul_medilp CPI= 2.375943 @ 
+Thread0= fmul_medilp CPI= 2.629573 @ 
+Thread0= fdiv_medilp CPI= 40.057203 @ 
+Thread0= fmem_seq_medilp CPI= 3.341650 @ 
+Thread0= fadd_medilp CPI= 4.043826 @ Thread1= fadd_medilp CPI= 4.007808 @ 
+Thread0= fadd_medilp CPI= 2.868481 @ Thread1= faddmul_medilp CPI= 4.071267 @ 
+Thread0= fadd_medilp CPI= 2.865614 @ Thread1= fmul_medilp CPI= 2.874230 @ 
+Thread0= fadd_medilp CPI= 2.233458 @ Thread1= fdiv_medilp CPI= 40.686125 @ 
+Thread0= fadd_medilp CPI= 2.267880 @ Thread1= fmem_seq_medilp CPI= 3.727202 @ 
+Thread0= faddmul_medilp CPI= 2.743185 @ Thread1= faddmul_medilp CPI= 2.743697 @ 
+Thread0= faddmul_medilp CPI= 3.535847 @ Thread1= fmul_medilp CPI= 3.180902 @ 
+Thread0= faddmul_medilp CPI= 3.135658 @ Thread1= fdiv_medilp CPI= 41.252852 @ 
+Thread0= faddmul_medilp CPI= 2.361388 @ Thread1= fmem_seq_medilp CPI= 3.669007 @ 
+Thread0= fmul_medilp CPI= 4.062695 @ Thread1= fmul_medilp CPI= 4.068612 @ 
+Thread0= fmul_medilp CPI= 6.253361 @ Thread1= fdiv_medilp CPI= 43.769565 @ 
+Thread0= fmul_medilp CPI= 2.703116 @ Thread1= fmem_seq_medilp CPI= 3.405577 @ 
+Thread0= fdiv_medilp CPI= 94.346123 @ Thread1= fdiv_medilp CPI= 94.569608 @ 
+Thread0= fdiv_medilp CPI= 40.613935 @ Thread1= fmem_seq_medilp CPI= 3.381701 @ 
+Thread0= fmem_seq_medilp CPI= 3.877418 @ Thread1= fmem_seq_medilp CPI= 3.896414 @ 
+Thread0= fadd_maxilp CPI= 2.003602 @ 
+Thread0= faddmul_maxilp CPI= 1.103500 @ 
+Thread0= fmul_maxilp CPI= 2.002781 @ 
+Thread0= fdiv_maxilp CPI= 40.053309 @ 
+Thread0= fmem_seq_maxilp CPI= 2.104910 @ 
+Thread0= fadd_maxilp CPI= 3.985636 @ Thread1= fadd_maxilp CPI= 4.009053 @ 
+Thread0= fadd_maxilp CPI= 2.667894 @ Thread1= faddmul_maxilp CPI= 3.734545 @ 
+Thread0= fadd_maxilp CPI= 2.527576 @ Thread1= fmul_maxilp CPI= 2.530045 @ 
+Thread0= fadd_maxilp CPI= 2.130712 @ Thread1= fdiv_maxilp CPI= 40.550595 @ 
+Thread0= fadd_maxilp CPI= 2.021965 @ Thread1= fmem_seq_maxilp CPI= 2.933120 @ 
+Thread0= faddmul_maxilp CPI= 2.405510 @ Thread1= faddmul_maxilp CPI= 2.406446 @ 
+Thread0= faddmul_maxilp CPI= 3.926482 @ Thread1= fmul_maxilp CPI= 2.746566 @ 
+Thread0= faddmul_maxilp CPI= 2.182881 @ Thread1= fdiv_maxilp CPI= 40.791374 @ 
+Thread0= faddmul_maxilp CPI= 1.738055 @ Thread1= fmem_seq_maxilp CPI= 3.798135 @ 
+Thread0= fmul_maxilp CPI= 3.931125 @ Thread1= fmul_maxilp CPI= 4.065338 @ 
+Thread0= fmul_maxilp CPI= 2.506517 @ Thread1= fdiv_maxilp CPI= 40.536052 @ 
+Thread0= fmul_maxilp CPI= 2.025388 @ Thread1= fmem_seq_maxilp CPI= 2.941193 @ 
+Thread0= fdiv_maxilp CPI= 97.795522 @ Thread1= fdiv_maxilp CPI= 97.813878 @ 
+Thread0= fdiv_maxilp CPI= 40.491845 @ Thread1= fmem_seq_maxilp CPI= 2.865919 @ 
+Thread0= fmem_seq_maxilp CPI= 14.513614 @ Thread1= fmem_seq_maxilp CPI= 14.513631 @ 
+Thread0= iadd_minilp CPI= 1.652374 @ Thread1= fadd_minilp CPI= 5.029036 @ 
+Thread0= iadd_minilp CPI= 1.574680 @ Thread1= faddmul_minilp CPI= 6.039588 @ 
+Thread0= iadd_minilp CPI= 1.489759 @ Thread1= fmul_minilp CPI= 7.085909 @ 
+Thread0= iadd_minilp CPI= 1.157974 @ Thread1= fdiv_minilp CPI= 40.286837 @ 
+Thread0= iadd_minilp CPI= 1.464373 @ Thread1= fmem_seq_minilp CPI= 12.800113 @ 
+Thread0= imul_minilp CPI= 21.444302 @ Thread1= fadd_minilp CPI= 5.418604 @ 
+Thread0= imul_minilp CPI= 18.247378 @ Thread1= faddmul_minilp CPI= 6.023373 @ 
+Thread0= imul_minilp CPI= 29.776969 @ Thread1= fmul_minilp CPI= 20.141301 @ 
+Thread0= imul_minilp CPI= 17.308828 @ Thread1= fdiv_minilp CPI= 40.397485 @ 
+Thread0= imul_minilp CPI= 14.867002 @ Thread1= fmem_seq_minilp CPI= 9.863492 @ 
+Thread0= idiv_minilp CPI= 258.381936 @ Thread1= fadd_minilp CPI= 5.285957 @ 
+Thread0= idiv_minilp CPI= 372.038833 @ Thread1= faddmul_minilp CPI= 9.275451 @ 
+Thread0= idiv_minilp CPI= 424.280712 @ Thread1= fmul_minilp CPI= 97.544544 @ 
+Thread0= idiv_minilp CPI= 927.597197 @ Thread1= fdiv_minilp CPI= 102.072245 @ 
+Thread0= idiv_minilp CPI= 186.366317 @ Thread1= fmem_seq_minilp CPI= 9.925962 @ 
+Thread0= imem_seq_minilp CPI= 2.709614 @ Thread1= fadd_minilp CPI= 5.022335 @ 
+Thread0= imem_seq_minilp CPI= 2.711866 @ Thread1= faddmul_minilp CPI= 6.016721 @ 
+Thread0= imem_seq_minilp CPI= 2.714573 @ Thread1= fmul_minilp CPI= 7.049890 @ 
+Thread0= imem_seq_minilp CPI= 2.692557 @ Thread1= fdiv_minilp CPI= 40.072301 @ 
+Thread0= imem_seq_minilp CPI= 2.723774 @ Thread1= fmem_seq_minilp CPI= 10.156157 @ 
+Thread0= iadd_medilp CPI= 1.855058 @ Thread1= fadd_medilp CPI= 2.831976 @ 
+Thread0= iadd_medilp CPI= 1.862852 @ Thread1= faddmul_medilp CPI= 2.836594 @ 
+Thread0= iadd_medilp CPI= 1.902727 @ Thread1= fmul_medilp CPI= 2.916180 @ 
+Thread0= iadd_medilp CPI= 1.153123 @ Thread1= fdiv_medilp CPI= 40.620512 @ 
+Thread0= iadd_medilp CPI= 1.841419 @ Thread1= fmem_seq_medilp CPI= 5.256770 @ 
+Thread0= imul_medilp CPI= 43.086435 @ Thread1= fadd_medilp CPI= 2.305002 @ 
+Thread0= imul_medilp CPI= 42.855667 @ Thread1= faddmul_medilp CPI= 2.338308 @ 
+Thread0= imul_medilp CPI= 33.920930 @ Thread1= fmul_medilp CPI= 2.844437 @ 
+Thread0= imul_medilp CPI= 16.864561 @ Thread1= fdiv_medilp CPI= 40.843545 @ 
+Thread0= imul_medilp CPI= 15.300811 @ Thread1= fmem_seq_medilp CPI= 3.731226 @ 
+Thread0= idiv_medilp CPI= 384.092511 @ Thread1= fadd_medilp CPI= 2.296167 @ 
+Thread0= idiv_medilp CPI= 455.375515 @ Thread1= faddmul_medilp CPI= 4.368090 @ 
+Thread0= idiv_medilp CPI= 467.006087 @ Thread1= fmul_medilp CPI= 34.193137 @ 
+Thread0= idiv_medilp CPI= 929.698329 @ Thread1= fdiv_medilp CPI= 80.466517 @ 
+Thread0= idiv_medilp CPI= 229.328935 @ Thread1= fmem_seq_medilp CPI= 4.276232 @ 
+Thread0= imem_seq_medilp CPI= 2.574486 @ Thread1= fadd_medilp CPI= 2.150034 @ 
+Thread0= imem_seq_medilp CPI= 2.560937 @ Thread1= faddmul_medilp CPI= 2.284614 @ 
+Thread0= imem_seq_medilp CPI= 2.533717 @ Thread1= fmul_medilp CPI= 2.715465 @ 
+Thread0= imem_seq_medilp CPI= 2.516718 @ Thread1= fdiv_medilp CPI= 40.589545 @ 
+Thread0= imem_seq_medilp CPI= 3.597331 @ Thread1= fmem_seq_medilp CPI= 3.978973 @ 
+Thread0= iadd_maxilp CPI= 1.849255 @ Thread1= fadd_maxilp CPI= 2.775430 @ 
+Thread0= iadd_maxilp CPI= 1.826677 @ Thread1= faddmul_maxilp CPI= 2.727417 @ 
+Thread0= iadd_maxilp CPI= 1.847372 @ Thread1= fmul_maxilp CPI= 2.779445 @ 
+Thread0= iadd_maxilp CPI= 1.154796 @ Thread1= fdiv_maxilp CPI= 40.553047 @ 
+Thread0= iadd_maxilp CPI= 1.771879 @ Thread1= fmem_seq_maxilp CPI= 4.909627 @ 
+Thread0= imul_maxilp CPI= 43.085392 @ Thread1= fadd_maxilp CPI= 2.137034 @ 
+Thread0= imul_maxilp CPI= 31.133712 @ Thread1= faddmul_maxilp CPI= 1.456864 @ 
+Thread0= imul_maxilp CPI= 42.545526 @ Thread1= fmul_maxilp CPI= 2.204098 @ 
+Thread0= imul_maxilp CPI= 16.067540 @ Thread1= fdiv_maxilp CPI= 40.499953 @ 
+Thread0= imul_maxilp CPI= 14.678138 @ Thread1= fmem_seq_maxilp CPI= 2.918262 @ 
+Thread0= idiv_maxilp CPI= 381.747406 @ Thread1= fadd_maxilp CPI= 2.182977 @ 
+Thread0= idiv_maxilp CPI= 276.153014 @ Thread1= faddmul_maxilp CPI= 1.541211 @ 
+Thread0= idiv_maxilp CPI= 380.107722 @ Thread1= fmul_maxilp CPI= 2.167180 @ 
+Thread0= idiv_maxilp CPI= 1035.894072 @ Thread1= fdiv_maxilp CPI= 61.477156 @ 
+Thread0= idiv_maxilp CPI= 259.941030 @ Thread1= fmem_seq_maxilp CPI= 3.061481 @ 
+Thread0= imem_seq_maxilp CPI= 2.863826 @ Thread1= fadd_maxilp CPI= 2.059880 @ 
+Thread0= imem_seq_maxilp CPI= 3.788670 @ Thread1= faddmul_maxilp CPI= 1.820326 @ 
+Thread0= imem_seq_maxilp CPI= 2.789817 @ Thread1= fmul_maxilp CPI= 2.034859 @ 
+Thread0= imem_seq_maxilp CPI= 2.674405 @ Thread1= fdiv_maxilp CPI= 40.465594 @ 
+Thread0= imem_seq_maxilp CPI= 14.515807 @ Thread1= fmem_seq_maxilp CPI= 14.533561 @ 
