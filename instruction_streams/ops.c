@@ -5,8 +5,8 @@
 #include <pthread.h>
 
 #include "memory_tests/access_pattern.h"
-#include "tsc_x86_64.h"
-#include "util.h"
+#include "util/tsc_x86_64.h"
+#include "util/util.h"
 
 #include "ops.h"
 #include "threadinfo.h"

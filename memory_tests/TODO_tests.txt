@@ -1,0 +1,44 @@
+1. Memory scalability
+---------------------
+Compare scalability of:
+- reads on private variables located on separate cache-lines
+- reads on a shared variable located on a single cache-line
+- writes on private variables located on separate cache-lines
+- writes on a shared variable located on a single cache-line
+- atomic RMW operations (e.g. LOCK XADD) on private variables
+  located on separate cache-lines (no-write sharing, cache-locking?)
+- atomic RMW operations on shared variable located on a
+  single cache line (write-sharing, cache-locking)
+- atomic RMW operations on private variables spanning 2
+  cache lines due to misalignment (no write-sharing, bus locking)
+
+2. Memory parallelism
+--------------------
+Bader's experiment on SC paper:
+- can TLP hide memory latency?
+
+3. MFENCE vs atomics
+--------------------- 
+like Dave's Dice experiments
+Single threaded, various cache-hitting patterns, various
+instruction mixtures 
+
+4. Locking entire bus vs. cache locking
+----------------------------------------
+- Atomic RMW instructions scalability on variables contained
+  in a single cache-line (Nehalem vs. older models)
+- Atomic RMW instructions scalability on variables contained
+  in a single cache-line and on variables spanning 2 lines
+  (Nehalem vs Nehalem, Netburst vs Netburst)
+- Atomic RMW instructions scalability for random access
+  patterns that fit in cache (cache locking) and for random
+  access pattern that do not fit (bus locking)
+
+5. Locks
+---------
+Compare scalability of:
+- spin locks
+- test and test and set (see The Art of Multiprocessor Programming)
+- mutexes
+- read-write locks
+- trylocks

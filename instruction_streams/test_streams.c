@@ -17,9 +17,9 @@
 #include <sys/types.h>
 #include <unistd.h>
 
-#include "tsc_x86_64.h"
-#include "processor_map.h"
-#include "util.h"
+#include "util/tsc_x86_64.h"
+#include "util/processor_map.h"
+#include "util/util.h"
 
 #include "threadinfo.h"
 #include "ops.h"

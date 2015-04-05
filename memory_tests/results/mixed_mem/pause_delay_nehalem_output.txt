@@ -1,0 +1,132 @@
+nohup: ignoring input
+Thread mapping:
+Thread 0 @ package 0, core 0, hw thread 0 (cpuid: 0)
+Thread 1 @ package 0, core 1, hw thread 0 (cpuid: 2)
+Thread 2 @ package 0, core 2, hw thread 0 (cpuid: 4)
+Thread 3 @ package 0, core 3, hw thread 0 (cpuid: 6)
+Thread 4 @ package 1, core 0, hw thread 0 (cpuid: 8)
+Thread 5 @ package 1, core 1, hw thread 0 (cpuid: 10)
+Thread 6 @ package 1, core 2, hw thread 0 (cpuid: 12)
+Thread 7 @ package 1, core 3, hw thread 0 (cpuid: 14)
+Thread 8 @ package 0, core 0, hw thread 1 (cpuid: 1)
+Thread 9 @ package 0, core 1, hw thread 1 (cpuid: 3)
+Thread 10 @ package 0, core 2, hw thread 1 (cpuid: 5)
+Thread 11 @ package 0, core 3, hw thread 1 (cpuid: 7)
+Thread 12 @ package 1, core 0, hw thread 1 (cpuid: 9)
+Thread 13 @ package 1, core 1, hw thread 1 (cpuid: 11)
+Thread 14 @ package 1, core 2, hw thread 1 (cpuid: 13)
+Thread 15 @ package 1, core 3, hw thread 1 (cpuid: 15)
+
+
+Nthreads=1
+==============
+	nthreads:1 	op:DELAY1 	cycles:10.568794
+	nthreads:1 	op:DELAY3 	cycles:28.331022
+	nthreads:1 	op:DELAY10 	cycles:91.253254
+	nthreads:1 	op:WR_ONLY_SHRD_1VAR 	cycles:2.006627
+	nthreads:1 	op:DELAY1_WR_SHRD_1VAR 	cycles:15.041967
+	nthreads:1 	op:DELAY3_WR_SHRD_1VAR 	cycles:33.085855
+	nthreads:1 	op:DELAY10_WR_SHRD_1VAR 	cycles:96.256652
+	nthreads:1 	op:RMW_ONLY_SHRD_1VAR 	cycles:6.019585
+	nthreads:1 	op:DELAY1_RMW_SHRD_1VAR 	cycles:15.041577
+	nthreads:1 	op:DELAY3_RMW_SHRD_1VAR 	cycles:33.088579
+	nthreads:1 	op:DELAY10_RMW_SHRD_1VAR 	cycles:96.264426
+
+Nthreads=2
+==============
+	nthreads:2 	op:DELAY1 	cycles:10.525563
+	nthreads:2 	op:DELAY3 	cycles:28.325673
+	nthreads:2 	op:DELAY10 	cycles:91.229580
+	nthreads:2 	op:WR_ONLY_SHRD_1VAR 	cycles:2.015386
+	nthreads:2 	op:DELAY1_WR_SHRD_1VAR 	cycles:15.035452
+	nthreads:2 	op:DELAY3_WR_SHRD_1VAR 	cycles:33.078710
+	nthreads:2 	op:DELAY10_WR_SHRD_1VAR 	cycles:96.239972
+	nthreads:2 	op:RMW_ONLY_SHRD_1VAR 	cycles:6.521084
+	nthreads:2 	op:DELAY1_RMW_SHRD_1VAR 	cycles:29.387645
+	nthreads:2 	op:DELAY3_RMW_SHRD_1VAR 	cycles:87.994694
+	nthreads:2 	op:DELAY10_RMW_SHRD_1VAR 	cycles:169.884933
+
+Nthreads=3
+==============
+	nthreads:3 	op:DELAY1 	cycles:10.527108
+	nthreads:3 	op:DELAY3 	cycles:28.325198
+	nthreads:3 	op:DELAY10 	cycles:91.235480
+	nthreads:3 	op:WR_ONLY_SHRD_1VAR 	cycles:2.006164
+	nthreads:3 	op:DELAY1_WR_SHRD_1VAR 	cycles:15.037695
+	nthreads:3 	op:DELAY3_WR_SHRD_1VAR 	cycles:33.084634
+	nthreads:3 	op:DELAY10_WR_SHRD_1VAR 	cycles:96.241200
+	nthreads:3 	op:RMW_ONLY_SHRD_1VAR 	cycles:8.385158
+	nthreads:3 	op:DELAY1_RMW_SHRD_1VAR 	cycles:24.697915
+	nthreads:3 	op:DELAY3_RMW_SHRD_1VAR 	cycles:132.160002
+	nthreads:3 	op:DELAY10_RMW_SHRD_1VAR 	cycles:255.213209
+
+Nthreads=4
+==============
+	nthreads:4 	op:DELAY1 	cycles:10.527331
+	nthreads:4 	op:DELAY3 	cycles:28.317382
+	nthreads:4 	op:DELAY10 	cycles:91.221084
+	nthreads:4 	op:WR_ONLY_SHRD_1VAR 	cycles:2.005163
+	nthreads:4 	op:DELAY1_WR_SHRD_1VAR 	cycles:15.035796
+	nthreads:4 	op:DELAY3_WR_SHRD_1VAR 	cycles:33.078591
+	nthreads:4 	op:DELAY10_WR_SHRD_1VAR 	cycles:96.225724
+	nthreads:4 	op:RMW_ONLY_SHRD_1VAR 	cycles:11.089823
+	nthreads:4 	op:DELAY1_RMW_SHRD_1VAR 	cycles:23.264163
+	nthreads:4 	op:DELAY3_RMW_SHRD_1VAR 	cycles:176.241836
+	nthreads:4 	op:DELAY10_RMW_SHRD_1VAR 	cycles:341.565439
+
+Nthreads=5
+==============
+	nthreads:5 	op:DELAY1 	cycles:10.523795
+	nthreads:5 	op:DELAY3 	cycles:28.316296
+	nthreads:5 	op:DELAY10 	cycles:91.214730
+	nthreads:5 	op:WR_ONLY_SHRD_1VAR 	cycles:2.015953
+	nthreads:5 	op:DELAY1_WR_SHRD_1VAR 	cycles:15.035883
+	nthreads:5 	op:DELAY3_WR_SHRD_1VAR 	cycles:33.079478
+	nthreads:5 	op:DELAY10_WR_SHRD_1VAR 	cycles:96.228007
+	nthreads:5 	op:RMW_ONLY_SHRD_1VAR 	cycles:12.993027
+	nthreads:5 	op:DELAY1_RMW_SHRD_1VAR 	cycles:26.382390
+	nthreads:5 	op:DELAY3_RMW_SHRD_1VAR 	cycles:116.552112
+	nthreads:5 	op:DELAY10_RMW_SHRD_1VAR 	cycles:611.246850
+
+Nthreads=6
+==============
+	nthreads:6 	op:DELAY1 	cycles:10.522482
+	nthreads:6 	op:DELAY3 	cycles:28.313539
+	nthreads:6 	op:DELAY10 	cycles:91.197962
+	nthreads:6 	op:WR_ONLY_SHRD_1VAR 	cycles:2.004959
+	nthreads:6 	op:DELAY1_WR_SHRD_1VAR 	cycles:15.036303
+	nthreads:6 	op:DELAY3_WR_SHRD_1VAR 	cycles:33.074633
+	nthreads:6 	op:DELAY10_WR_SHRD_1VAR 	cycles:96.233741
+	nthreads:6 	op:RMW_ONLY_SHRD_1VAR 	cycles:14.018528
+	nthreads:6 	op:DELAY1_RMW_SHRD_1VAR 	cycles:25.048091
+	nthreads:6 	op:DELAY3_RMW_SHRD_1VAR 	cycles:124.838777
+	nthreads:6 	op:DELAY10_RMW_SHRD_1VAR 	cycles:752.198168
+
+Nthreads=7
+==============
+	nthreads:7 	op:DELAY1 	cycles:10.534313
+	nthreads:7 	op:DELAY3 	cycles:28.310039
+	nthreads:7 	op:DELAY10 	cycles:91.198958
+	nthreads:7 	op:WR_ONLY_SHRD_1VAR 	cycles:2.005217
+	nthreads:7 	op:DELAY1_WR_SHRD_1VAR 	cycles:15.036193
+	nthreads:7 	op:DELAY3_WR_SHRD_1VAR 	cycles:33.076881
+	nthreads:7 	op:DELAY10_WR_SHRD_1VAR 	cycles:96.211369
+	nthreads:7 	op:RMW_ONLY_SHRD_1VAR 	cycles:14.561365
+	nthreads:7 	op:DELAY1_RMW_SHRD_1VAR 	cycles:25.191451
+	nthreads:7 	op:DELAY3_RMW_SHRD_1VAR 	cycles:117.178920
+	nthreads:7 	op:DELAY10_RMW_SHRD_1VAR 	cycles:959.522382
+
+Nthreads=8
+==============
+	nthreads:8 	op:DELAY1 	cycles:10.521594
+	nthreads:8 	op:DELAY3 	cycles:28.308040
+	nthreads:8 	op:DELAY10 	cycles:91.199179
+	nthreads:8 	op:WR_ONLY_SHRD_1VAR 	cycles:2.005087
+	nthreads:8 	op:DELAY1_WR_SHRD_1VAR 	cycles:15.036192
+	nthreads:8 	op:DELAY3_WR_SHRD_1VAR 	cycles:33.078440
+	nthreads:8 	op:DELAY10_WR_SHRD_1VAR 	cycles:96.202185
+	nthreads:8 	op:RMW_ONLY_SHRD_1VAR 	cycles:15.117959
+	nthreads:8 	op:DELAY1_RMW_SHRD_1VAR 	cycles:25.686282
+	nthreads:8 	op:DELAY3_RMW_SHRD_1VAR 	cycles:145.345337
+	nthreads:8 	op:DELAY10_RMW_SHRD_1VAR 	cycles:1154.035324
+

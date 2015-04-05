@@ -1,0 +1,99 @@
+nohup: ignoring input
+Thread mapping:
+Thread 0 @ package 0, core 0, hw thread 0 (cpuid: 0)
+Thread 1 @ package 1, core 0, hw thread 0 (cpuid: 1)
+Thread 2 @ package 0, core 0, hw thread 1 (cpuid: 2)
+Thread 3 @ package 1, core 0, hw thread 1 (cpuid: 3)
+
+Small array: 4096 elements, mask=fff
+Big array: 33554432 elements, mask=1ffffff
+
+Nthreads=1
+==============
+	nthreads:1 	op:RD_PRIV_1VAR 	cycles:1.502157
+	nthreads:1 	op:RD_PRIV_1VAR_MISAL 	cycles:23.250352
+	nthreads:1 	op:RD_PRIV_FIT_L1 	cycles:21.330620
+	nthreads:1 	op:RD_PRIV_NOFIT_LLC 	cycles:92.233236
+	nthreads:1 	op:RD_SHRD_1VAR 	cycles:1.502404
+	nthreads:1 	op:RD_SHRD_1VAR_MISAL 	cycles:23.244034
+	nthreads:1 	op:RD_SHRD_FIT_L1 	cycles:27.898972
+	nthreads:1 	op:RD_SHRD_NOFIT_LLC 	cycles:78.727710
+	nthreads:1 	op:WR_PRIV_1VAR 	cycles:1.752784
+	nthreads:1 	op:WR_PRIV_1VAR_MISAL 	cycles:109.029893
+	nthreads:1 	op:WR_PRIV_FIT_L1 	cycles:18.488570
+	nthreads:1 	op:WR_PRIV_NOFIT_LLC 	cycles:240.705377
+	nthreads:1 	op:WR_SHRD_1VAR 	cycles:1.753921
+	nthreads:1 	op:WR_SHRD_1VAR_MISAL 	cycles:109.056765
+	nthreads:1 	op:WR_SHRD_FIT_L1 	cycles:18.562844
+	nthreads:1 	op:WR_SHRD_NOFIT_LLC 	cycles:242.930844
+	nthreads:1 	op:RMW_PRIV_1VAR 	cycles:5.005585
+	nthreads:1 	op:RMW_PRIV_1VAR_MISAL 	cycles:96.347037
+	nthreads:1 	op:RMW_PRIV_FIT_L1 	cycles:13.250974
+	nthreads:1 	op:RMW_PRIV_NOFIT_LLC 	cycles:264.039189
+	nthreads:1 	op:RMW_SHRD_1VAR 	cycles:5.005583
+	nthreads:1 	op:RMW_SHRD_1VAR_MISAL 	cycles:108.505808
+	nthreads:1 	op:RMW_SHRD_FIT_L1 	cycles:13.190183
+	nthreads:1 	op:RMW_SHRD_NOFIT_LLC 	cycles:264.747236
+	nthreads:1 	op:ATOMIC_RMW_PRIV_1VAR 	cycles:91.081204
+	nthreads:1 	op:ATOMIC_RMW_PRIV_1VAR_MISAL 	cycles:978.385937
+	nthreads:1 	op:ATOMIC_RMW_PRIV_FIT_L1 	cycles:107.666792
+	nthreads:1 	op:ATOMIC_RMW_PRIV_NOFIT_LLC 	cycles:490.119047
+	nthreads:1 	op:ATOMIC_RMW_SHRD_1VAR 	cycles:78.832425
+	nthreads:1 	op:ATOMIC_RMW_SHRD_1VAR_MISAL 	cycles:974.060891
+	nthreads:1 	op:ATOMIC_RMW_SHRD_FIT_L1 	cycles:107.146136
+	nthreads:1 	op:ATOMIC_RMW_SHRD_NOFIT_LLC 	cycles:492.597611
+	nthreads:1 	op:MFENCE_REG 	cycles:144.108645
+	nthreads:1 	op:MFENCE_WRMEM 	cycles:180.139287
+	nthreads:1 	op:MFENCE_RMWMEM_1VAR 	cycles:182.144776
+	nthreads:1 	op:MFENCE_RMWMEM_NOFIT_LLC 	cycles:745.176976
+	nthreads:1 	op:MFENCE_LOCKADD_REG 	cycles:88.177924
+	nthreads:1 	op:MFENCE_LOCKADD_WRMEM 	cycles:89.922280
+	nthreads:1 	op:MFENCE_LOCKADD_RMWMEM_1VAR 	cycles:89.210275
+	nthreads:1 	op:MFENCE_LOCKADD_RMWMEM_NOFIT_LLC 	cycles:282.534231
+	nthreads:1 	op:MARSAGLIA_PRNG 	cycles:7.399477
+
+Nthreads=2
+==============
+	nthreads:2 	op:RD_PRIV_1VAR 	cycles:1.501855
+	nthreads:2 	op:RD_PRIV_1VAR_MISAL 	cycles:23.249895
+	nthreads:2 	op:RD_PRIV_FIT_L1 	cycles:21.425585
+	nthreads:2 	op:RD_PRIV_NOFIT_LLC 	cycles:99.411420
+	nthreads:2 	op:RD_SHRD_1VAR 	cycles:1.506002
+	nthreads:2 	op:RD_SHRD_1VAR_MISAL 	cycles:23.247011
+	nthreads:2 	op:RD_SHRD_FIT_L1 	cycles:9.016590
+	nthreads:2 	op:RD_SHRD_NOFIT_LLC 	cycles:363.773826
+	nthreads:2 	op:WR_PRIV_1VAR 	cycles:1.914658
+	nthreads:2 	op:WR_PRIV_1VAR_MISAL 	cycles:173.363723
+	nthreads:2 	op:WR_PRIV_FIT_L1 	cycles:19.301180
+	nthreads:2 	op:WR_PRIV_NOFIT_LLC 	cycles:563.138920
+	nthreads:2 	op:WR_SHRD_1VAR 	cycles:2.573747
+	nthreads:2 	op:WR_SHRD_1VAR_MISAL 	cycles:225.452831
+	nthreads:2 	op:WR_SHRD_FIT_L1 	cycles:208.405025
+	nthreads:2 	op:WR_SHRD_NOFIT_LLC 	cycles:560.426643
+	nthreads:2 	op:RMW_PRIV_1VAR 	cycles:5.006332
+	nthreads:2 	op:RMW_PRIV_1VAR_MISAL 	cycles:106.388567
+	nthreads:2 	op:RMW_PRIV_FIT_L1 	cycles:16.056600
+	nthreads:2 	op:RMW_PRIV_NOFIT_LLC 	cycles:570.063602
+	nthreads:2 	op:RMW_SHRD_1VAR 	cycles:28.963163
+	nthreads:2 	op:RMW_SHRD_1VAR_MISAL 	cycles:1149.974331
+	nthreads:2 	op:RMW_SHRD_FIT_L1 	cycles:247.147808
+	nthreads:2 	op:RMW_SHRD_NOFIT_LLC 	cycles:575.053972
+	nthreads:2 	op:ATOMIC_RMW_PRIV_1VAR 	cycles:91.087062
+	nthreads:2 	op:ATOMIC_RMW_PRIV_1VAR_MISAL 	cycles:1674.546710
+	nthreads:2 	op:ATOMIC_RMW_PRIV_FIT_L1 	cycles:107.867965
+	nthreads:2 	op:ATOMIC_RMW_PRIV_NOFIT_LLC 	cycles:610.998862
+	nthreads:2 	op:ATOMIC_RMW_SHRD_1VAR 	cycles:461.562498
+	nthreads:2 	op:ATOMIC_RMW_SHRD_1VAR_MISAL 	cycles:1675.189717
+	nthreads:2 	op:ATOMIC_RMW_SHRD_FIT_L1 	cycles:292.287472
+	nthreads:2 	op:ATOMIC_RMW_SHRD_NOFIT_LLC 	cycles:641.211200
+	nthreads:2 	op:MFENCE_REG 	cycles:144.125423
+	nthreads:2 	op:MFENCE_WRMEM 	cycles:180.159499
+	nthreads:2 	op:MFENCE_RMWMEM_1VAR 	cycles:182.161192
+	nthreads:2 	op:MFENCE_RMWMEM_NOFIT_LLC 	cycles:825.313489
+	nthreads:2 	op:MFENCE_LOCKADD_REG 	cycles:88.220392
+	nthreads:2 	op:MFENCE_LOCKADD_WRMEM 	cycles:89.988854
+	nthreads:2 	op:MFENCE_LOCKADD_RMWMEM_1VAR 	cycles:89.422326
+	nthreads:2 	op:MFENCE_LOCKADD_RMWMEM_NOFIT_LLC 	cycles:575.996001
+	nthreads:2 	op:MARSAGLIA_PRNG 	cycles:7.407523
+
+51553376

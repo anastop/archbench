@@ -1,0 +1,25 @@
+1. Single-variable shared write
+-------------------------------
+CPU0    CPU1    state   write memory?
+----    ----    -----   ------------
+                I,I
+wr A            E,I     y
+wr A            M,I     n
+        wr A    I,E     y
+        wr A    I,M     n
+wr A            E,I     y
+        wr A    I,E     y
+
+
+2. Single-variable shared RMW
+-----------------------------
+CPU0    CPU1    state   write memory?
+----    ----    -----   -------------
+rd A            E,I     
+        rd A    S,S
+wr A            E,I     y     
+        wr A    I,E     y
+        rd A    I,E     
+        wr A    I,M
+rd A            S,S
+wr A            E,I     y
