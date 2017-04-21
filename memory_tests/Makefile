@@ -1,6 +1,6 @@
 INCLUDE_DIR = ../ 
 LIBRARY_DIR = ./
-UTIL_PARENT = ../../
+UTIL_PARENT = /home/nanastop/
 
 CC = gcc
 CFLAGS = -O3 -Wall  
@@ -9,9 +9,15 @@ LIBS = -lpthread
 
 CFLAGS += -I$(INCLUDE_DIR) -I$(UTIL_PARENT)
 
-PROGRAMS = test_hierarchy memops_scalability ptp_comm mixed_mem
+PROGRAMS = test_hierarchy memops_scalability ptp_comm mixed_mem randacc seqacc
 
 all : $(PROGRAMS)
+
+seqacc: util.o access_pattern.o seqacc.o
+	$(CC) $(LDFLAGS) util.o access_pattern.o seqacc.o -o seqacc -L$(LIBRARY_DIR) $(LIBS)
+
+randacc: util.o access_pattern.o randacc.o
+	$(CC) $(LDFLAGS) util.o access_pattern.o randacc.o -o randacc -L$(LIBRARY_DIR) $(LIBS)
 
 test_hierarchy : util.o access_pattern.o test_hierarchy.o
 	$(CC) $(LDFLAGS) util.o access_pattern.o test_hierarchy.o -o test_hierarchy -L$(LIBRARY_DIR) $(LIBS)
