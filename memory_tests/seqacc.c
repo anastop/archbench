@@ -8,6 +8,7 @@
 #include <stdlib.h>
 #include <sys/time.h>
 #include <time.h>
+#include <unistd.h>
 
 #include "access_pattern.h"
 #include "util/tsc_x86_64.h"
@@ -22,6 +23,7 @@ static void sigalrm_hnd(int sig)
     timer_stop(&t);
     fprintf(stderr, "elements_processed:%ld, cycles_per_element:%lf, ", 
                     i, timer_total(&t)/(double)i);
+    sleep(1);
     i = 0;
     timer_clear(&t);
     timer_start(&t);
