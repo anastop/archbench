@@ -1,6 +1,6 @@
 INCLUDE_DIR = ../ 
 LIBRARY_DIR = ./
-UTIL_PARENT = ../../util/
+UTIL_PARENT = ../../
 
 CC = gcc
 CFLAGS = -O3 -Wall  
