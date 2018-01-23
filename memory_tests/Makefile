@@ -1,6 +1,6 @@
 INCLUDE_DIR = ../ 
 LIBRARY_DIR = ./
-UTIL_PARENT = /home/nanastop/
+UTIL_PARENT = ../../util/
 
 CC = gcc
 CFLAGS = -O3 -Wall  
