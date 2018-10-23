@@ -14,7 +14,7 @@
 
 static volatile unsigned long i = 0;
 
-static unsigned int interval_secs = 2;
+static unsigned int interval_msecs = 500;
 static tsctimer_t t;
 
 static void sigalrm_hnd(int sig) 
@@ -43,10 +43,10 @@ int main(int argc, char **argv)
         exit(EXIT_FAILURE);
     }
 
-    itv.it_value.tv_sec = interval_secs;
-    itv.it_value.tv_usec = 0;
-    itv.it_interval.tv_sec = interval_secs;
-    itv.it_interval.tv_usec = 0;
+    itv.it_value.tv_sec = 0;
+    itv.it_value.tv_usec = interval_msecs*1000;
+    itv.it_interval.tv_sec = 0;
+    itv.it_interval.tv_usec = interval_msecs*1000;
 
     if (setitimer(ITIMER_REAL, &itv, NULL) == -1) {
         perror("setitimer");    
