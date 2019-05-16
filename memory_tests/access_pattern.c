@@ -67,8 +67,8 @@ unsigned int* create_sequential_access_array(unsigned int size)
         exit(EXIT_FAILURE);
     }
     
-    for ( i = 0; i < size-1; i++ ) 
-        s[i] = i+1;
+    for ( i = 0; i < size-1; i+=64 ) 
+        s[i] = i+64;
 
     s[i] = 0;
 
