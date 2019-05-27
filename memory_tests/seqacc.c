@@ -21,8 +21,8 @@ static tsctimer_t t;
 static void sigalrm_hnd(int sig) 
 {
     timer_stop(&t);
-    fprintf(stderr, "elements_processed:%ld, bytes_processed:%ld, cycles_per_element:%lf, ", 
-                    i*64, i*sizeof(unsigned int)*64, timer_total(&t)/(double)i);
+    fprintf(stderr, "elements_processed:%ld, cycles_per_element:%lf, bytes_processed:%ld,", 
+                    i*64, timer_total(&t)/(double)i, i*sizeof(unsigned int)*64);
     //sleep(1);
     i = 0;
     timer_clear(&t);
