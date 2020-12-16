@@ -3,7 +3,7 @@ LIBRARY_DIR = ./
 UTIL_PARENT = ../../
 
 CC = gcc
-CFLAGS = -O3 -Wall  
+CFLAGS = -O3 -Wall -fno-tree-vectorize -fprefetch-loop-arrays 
 LDGLAGS = 
 LIBS = -lpthread
 

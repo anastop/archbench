@@ -29,7 +29,8 @@ static void sigalrm_hnd(int sig)
 
 int main(int argc, char **argv)
 {
-    unsigned int ws_mb, num_elements, a, *rand_stream;
+    unsigned int ws_mb, num_elements, *rand_stream;
+    volatile unsigned int a;
     struct sigaction sa;
     struct itimerval itv;
         
@@ -55,18 +56,27 @@ int main(int argc, char **argv)
     
     ws_mb = atoi(argv[1]);
     num_elements = ws_mb * 1024*1024/sizeof(unsigned int);
+    fprintf(stderr, "num_elements = %d \n", num_elements);
+    fprintf(stderr, "ws_mb = %d \n", ws_mb);
+    fprintf(stderr, "calc_size = %ld \n", num_elements * sizeof(unsigned int));
 
     rand_stream = create_random_access_array(num_elements);
 
     timer_start(&t);
     a = 0;
+    
+    // paranoid prefetch optimization (0 = read, 3 = keep in all cache levels possible)
+    /* for (i = 0; i < num_elements; i++) {
+	__builtin_prefetch (&rand_stream[a], 0, 3);
+    } */
+
     for (;;) {
         i++;
         if (i==1) {
             fprintf(stderr, "reset\n");
         }
         a = rand_stream[a];
-        __asm__ __volatile__ ("" :: "m" (rand_stream[a]), "r" (a) );
+        // __asm__ ("" :: "m" (rand_stream[a]), "r" (a) );
     }
     free(rand_stream);
 
