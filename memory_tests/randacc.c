@@ -31,7 +31,7 @@ static void sigalrm_hnd(int sig)
 int main(int argc, char **argv)
 {
     unsigned int ws_mb, *rand_stream;
-    unsigned int a;
+    volatile unsigned int a;
     struct sigaction sa;
     struct itimerval itv;
         
