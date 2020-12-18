@@ -13,6 +13,7 @@
 #include "util/tsc_x86_64.h"
 
 static volatile unsigned long i = 0;
+static volatile unsigned int num_elements = 1;
 
 static unsigned int interval_msecs = 500;
 static tsctimer_t t;
@@ -21,7 +22,7 @@ static void sigalrm_hnd(int sig)
 {
     timer_stop(&t);
     fprintf(stderr, "elements_processed:%ld, cycles_per_element:%lf, ", 
-                    i, timer_total(&t)/(double)i);
+                    i, (double)i/(double)num_elements);
     i = 0;
     timer_clear(&t);
     timer_start(&t);
@@ -29,7 +30,7 @@ static void sigalrm_hnd(int sig)
 
 int main(int argc, char **argv)
 {
-    unsigned int ws_mb, num_elements, *rand_stream;
+    unsigned int ws_mb, *rand_stream;
     volatile unsigned int a;
     struct sigaction sa;
     struct itimerval itv;
